@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.b14552bc.chunk.css",
+    "main.css": "/portafolio/static/css/main.a03791d0.chunk.css",
     "main.js": "/portafolio/static/js/main.ed55b821.chunk.js",
     "main.js.map": "/portafolio/static/js/main.ed55b821.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.d97de6e3.js",
@@ -10,15 +10,15 @@
     "static/js/2.1b7b2700.chunk.js.map": "/portafolio/static/js/2.1b7b2700.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.30fbed10.chunk.css.map": "/portafolio/static/css/2.30fbed10.chunk.css.map",
-    "static/css/main.b14552bc.chunk.css.map": "/portafolio/static/css/main.b14552bc.chunk.css.map",
+    "static/css/main.a03791d0.chunk.css.map": "/portafolio/static/css/main.a03791d0.chunk.css.map",
     "static/js/2.1b7b2700.chunk.js.LICENSE.txt": "/portafolio/static/js/2.1b7b2700.chunk.js.LICENSE.txt",
-    "static/media/estilo.css": "/portafolio/static/media/rock-paper-scissors.5926f93c.jpg"
+    "static/media/estilo.css": "/portafolio/static/media/weather-app.ec5e440f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d97de6e3.js",
     "static/css/2.30fbed10.chunk.css",
     "static/js/2.1b7b2700.chunk.js",
-    "static/css/main.b14552bc.chunk.css",
+    "static/css/main.a03791d0.chunk.css",
     "static/js/main.ed55b821.chunk.js"
   ]
 }
