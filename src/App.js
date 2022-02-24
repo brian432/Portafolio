@@ -10,10 +10,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Layout active={active} setActive={setActive} />}>
+        <Route path='/portafolio/' element={<Layout active={active} setActive={setActive} />}>
           <Route index element={<Home active={active}/>} />
-          <Route path='portafolio' element={<Portafolio active={active} />} />
-          <Route path='contacto' element={<Contact active={active} />} />
+          <Route path='portafolio/portafolio' element={<Portafolio active={active} />} />
+          <Route path='portafolio/contacto' element={<Contact active={active} />} />
         </Route>
       </Routes>
     </BrowserRouter>
