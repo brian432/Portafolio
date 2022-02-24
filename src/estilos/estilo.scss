@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@300;400;500&display=swap');
+
+@import "../componentes/layout";
+@import "../componentes/header/header";
+@import "../componentes/menu/menu";
+@import "../componentes/secciones/Home/home";
+@import "../componentes/secciones/Portafolio/portafolio";
+@import "../componentes/secciones/Contacto/contacto";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: white;
+    height: 100vh;
+    line-height: 1.5;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 4px;
+}
+
+h1 {
+    font-size: clamp(3rem, 5vw, 5rem);
+    text-align: center;
+    align-self: center;
+    text-shadow: 4px 4px 10px black;
+}
+
+p{
+    font-size: 1.3rem;
+    color: rgb(175, 175, 175);
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+ul li{
+    list-style-type:none ;
+}
+
+.padding{
+    padding: 1rem 5rem;
+}
+
+//animaciones secciones
+.section-active {
+    .div-izquierdo {
+        visibility: visible !important;
+        animation: slideInLeft 1s forwards;
+    }
+    @keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            visibility: visible;
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .div-derecho {
+        display: grid !important;
+        animation: slideInRight 1s forwards;
+    }
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            visibility: visible;
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+
+//javascript clases
+.center {
+    h1 {
+        animation: fadeIn 1s both;
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .padding{
+        padding: 1rem 2.5rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .padding{
+        padding: 1rem 1rem;
+    }
+}

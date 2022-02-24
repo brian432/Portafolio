@@ -1,0 +1,60 @@
+$color-texto:white;
+nav{
+    display: flex;
+    min-height: 100vh;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: fixed;
+    min-height: max-content;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: transparent;
+    z-index: 10;
+    .logo{
+        color: $color-texto;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+    #hamburguesa{
+        cursor: pointer;
+        div{
+            width:25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+        .linea1{
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+        .linea2{
+            opacity: 0;
+        }
+        .linea3{
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+    }
+} 
+
+@media screen and (max-width:1000px) {
+    nav{
+        padding: 1rem 2.5rem;
+    }
+}
+
+@media screen and (max-width:768px) { 
+    nav{
+        position: fixed;
+    }
+}
+
+@media screen and (max-width:425px) { 
+    nav{
+        padding: 1rem 1rem;
+    }
+}

@@ -1,0 +1,68 @@
+#portafolio {
+    display: flex;
+    flex-direction: column;
+    height: 37.5rem;
+    width: 100%;
+    justify-content: center;
+
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+
+    .cuadros {
+        padding: 2px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        transition: 0.5s ease;
+        -moz-transition: 0.5s ease;
+        -webkit-transition: 0.5s ease;
+        -o-transition: 0.5s ease;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        &:hover {
+            transform: scale(1.05);
+            filter: grayscale(0%) !important;
+        }
+    }
+    .cuadro0 {
+        background-image: url("/public/imagenes/nasa-app.jpg");
+    }
+    .cuadro1 {
+        background-image: url("/public/imagenes/Movies-App.jpg");
+    }
+    .div-filter:hover {
+        filter: grayscale(0%) !important;
+    }
+    .cuadro2 {
+        background-image: url("/public/imagenes/api-countries.jpg");
+    }
+    .cuadro3 {
+        background-image: url("/public/imagenes/job-listings.jpg");
+    }
+    .cuadro4 {
+        background-image: url("/public/imagenes/ip-address-tracker.jpg");
+    }
+    .cuadro5 {
+        background-image: url("/public/imagenes/rock-paper-scissors.jpg");
+    }
+}
+
+
