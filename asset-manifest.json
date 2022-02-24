@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.052bdfc2.css",
-    "main.js": "/repository-name/static/js/main.d44075b3.js",
-    "static/media/Movies-App.jpg": "/repository-name/static/media/Movies-App.37a93eb15e7158a4f8d6.jpg",
-    "static/media/nasa-app.jpg": "/repository-name/static/media/nasa-app.6f50640154d0bf24d81c.jpg",
-    "static/media/ip-address-tracker.jpg": "/repository-name/static/media/ip-address-tracker.531daa715494022b2001.jpg",
-    "static/media/job-listings.jpg": "/repository-name/static/media/job-listings.f59408bda9e20932fa8a.jpg",
-    "static/media/api-countries.jpg": "/repository-name/static/media/api-countries.9f826449e1fd25ff19fb.jpg",
-    "static/media/rock-paper-scissors.jpg": "/repository-name/static/media/rock-paper-scissors.5926f93c43a6faf3c36a.jpg",
-    "index.html": "/repository-name/index.html",
-    "main.052bdfc2.css.map": "/repository-name/static/css/main.052bdfc2.css.map",
-    "main.d44075b3.js.map": "/repository-name/static/js/main.d44075b3.js.map"
+    "main.css": "/portafolio/static/css/main.440c871d.css",
+    "main.js": "/portafolio/static/js/main.d44075b3.js",
+    "static/media/Movies-App.jpg": "/portafolio/static/media/Movies-App.37a93eb15e7158a4f8d6.jpg",
+    "static/media/nasa-app.jpg": "/portafolio/static/media/nasa-app.6f50640154d0bf24d81c.jpg",
+    "static/media/ip-address-tracker.jpg": "/portafolio/static/media/ip-address-tracker.531daa715494022b2001.jpg",
+    "static/media/job-listings.jpg": "/portafolio/static/media/job-listings.f59408bda9e20932fa8a.jpg",
+    "static/media/api-countries.jpg": "/portafolio/static/media/api-countries.9f826449e1fd25ff19fb.jpg",
+    "static/media/rock-paper-scissors.jpg": "/portafolio/static/media/rock-paper-scissors.5926f93c43a6faf3c36a.jpg",
+    "index.html": "/portafolio/index.html",
+    "main.440c871d.css.map": "/portafolio/static/css/main.440c871d.css.map",
+    "main.d44075b3.js.map": "/portafolio/static/js/main.d44075b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.052bdfc2.css",
+    "static/css/main.440c871d.css",
     "static/js/main.d44075b3.js"
   ]
 }
