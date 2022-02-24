@@ -12,8 +12,8 @@ function App() {
       <Routes>
         <Route path='/portafolio/' element={<Layout active={active} setActive={setActive} />}>
           <Route index element={<Home active={active}/>} />
-          <Route path='portafolio/portafolio' element={<Portafolio active={active} />} />
-          <Route path='portafolio/contacto' element={<Contact active={active} />} />
+          <Route path='/portafolio/portafolio' element={<Portafolio active={active} />} />
+          <Route path='/portafolio/contacto' element={<Contact active={active} />} />
         </Route>
       </Routes>
     </BrowserRouter>
