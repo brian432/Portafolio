@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.440c871d.css",
-    "main.js": "/portafolio/static/js/main.d44075b3.js",
+    "main.js": "/portafolio/static/js/main.8aa5223b.js",
     "static/media/Movies-App.jpg": "/portafolio/static/media/Movies-App.37a93eb15e7158a4f8d6.jpg",
     "static/media/nasa-app.jpg": "/portafolio/static/media/nasa-app.6f50640154d0bf24d81c.jpg",
     "static/media/ip-address-tracker.jpg": "/portafolio/static/media/ip-address-tracker.531daa715494022b2001.jpg",
@@ -10,10 +10,10 @@
     "static/media/rock-paper-scissors.jpg": "/portafolio/static/media/rock-paper-scissors.5926f93c43a6faf3c36a.jpg",
     "index.html": "/portafolio/index.html",
     "main.440c871d.css.map": "/portafolio/static/css/main.440c871d.css.map",
-    "main.d44075b3.js.map": "/portafolio/static/js/main.d44075b3.js.map"
+    "main.8aa5223b.js.map": "/portafolio/static/js/main.8aa5223b.js.map"
   },
   "entrypoints": [
     "static/css/main.440c871d.css",
-    "static/js/main.d44075b3.js"
+    "static/js/main.8aa5223b.js"
   ]
 }
