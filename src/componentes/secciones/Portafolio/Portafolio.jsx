@@ -37,7 +37,7 @@ const Portafolio = ({ active }) => {
   ];
   return (
     <div id="portafolio" className={!active ? 'section-active padding' : 'center padding'}>
-      <h1 className="div-izquierdo">Portafolio</h1>
+      <h1 className="div-izquierdo neon">Portafolio</h1>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

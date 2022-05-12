@@ -4,7 +4,7 @@ const Contacto = ({ active }) => {
   return (
     <section id="Contacto" className={!active ? 'section-active padding' : 'center padding'}>
       <div className='div-izquierdo'>
-        <h1>Contacto</h1>
+        <h1 className='neon'>Contacto</h1>
         <div className='info' style={{ display: `${!active ? '' : 'none'}` }}>
           <p>
             Si deseas contactarme para ayudarte,

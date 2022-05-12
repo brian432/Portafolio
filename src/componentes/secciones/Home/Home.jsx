@@ -3,7 +3,7 @@ const Home = ({active}) => {
   return (
     <div className={`padding home ${!active ? 'section-active padding' : 'center padding'}`}>
       <div className="titulo">
-        <h1 className="div-izquierdo">Brian Cabrera</h1>
+        <h1 className="div-izquierdo neon">Brian Cabrera</h1>
         <h2 className="div-derecho">Front-End Developer</h2>
       </div>
       <p style={{ display: `${!active ? '' : 'none'}` }}>Hola! Mi nombre es Brian Cabrera,

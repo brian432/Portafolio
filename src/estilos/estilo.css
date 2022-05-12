@@ -9,6 +9,11 @@
           transform-style: preserve-3d;
 }
 
+.neon {
+  color: #fff;
+  text-shadow: 0 0 3px #00b2ff, 0 0 6px #00b2ff, 0 0 12px #00b2ff, 0 0 24px #26687f;
+}
+
 .main {
   position: relative;
   z-index: 5;

@@ -6,6 +6,14 @@
     overflow-x: hidden;
     transform-style: preserve-3d;
 }
+.neon {
+    color: #fff;
+    text-shadow:
+        0 0 3px rgba(0,178,255,1),
+        0 0 6px rgba(0,178,255,1),
+        0 0 12px rgba(0,178,255,1),
+        0 0 24px rgba(38,104,127,1),
+}
 
 .main {
     position: relative;
