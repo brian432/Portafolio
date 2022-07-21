@@ -1,6 +1,13 @@
 import { useForm, ValidationError } from '@formspree/react';
-const Contacto = ({ active }) => {
+import { swal } from '../../../utils/swal';
+export const Contacto = ({ active }) => {
   const [state, handleSubmit] = useForm("xayarnjr");
+  const handleSubmitWhitFormSpree = (e) => {
+    handleSubmit(e)
+    swal()
+    e.target.reset()
+  }
+
   return (
     <section id="Contacto" className={!active ? 'section-active padding' : 'center padding'}>
       <div className='div-izquierdo'>
@@ -22,7 +29,10 @@ const Contacto = ({ active }) => {
         </div>
       </div>
       <div className='div-derecho' style={{ display: `${!active ? '' : 'none'}` }}>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={(e) => {
+          handleSubmitWhitFormSpree(e)
+        }}
+        >
           <input id="name" type="text" name="name" placeholder="Nombre" required />
           <ValidationError
             prefix="Name"
@@ -51,5 +61,3 @@ const Contacto = ({ active }) => {
     </section>
   )
 }
-
-export default Contacto;

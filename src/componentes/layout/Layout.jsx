@@ -1,8 +1,8 @@
-import Header from './header/Header';
-import Menu from './menu/Menu';
+import { Header } from '../header/Header';
+import { Menu } from '../menu/Menu';
 import { Outlet } from 'react-router-dom';
 
-const Layout = ({active, setActive}) => {
+export const Layout = ({active, setActive}) => {
   return (
     <div className={`container ${active ? 'active' : ''}`}>
       <Header active={active} setActive={setActive} />
@@ -19,6 +19,3 @@ const Layout = ({active, setActive}) => {
     </div>
   )
 }
-
-export default Layout;
-

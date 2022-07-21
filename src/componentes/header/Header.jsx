@@ -1,5 +1,4 @@
-
-const Header = ({ active, setActive }) => {
+export const Header = ({ active, setActive }) => {
   return (
     <nav>
       <div className="logo">
@@ -13,5 +12,3 @@ const Header = ({ active, setActive }) => {
     </nav>
   )
 }
-
-export default Header;

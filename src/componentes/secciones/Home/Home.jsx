@@ -1,5 +1,4 @@
-
-const Home = ({active}) => {
+export const Home = ({active}) => {
   return (
     <div className={`padding home ${!active ? 'section-active padding' : 'center padding'}`}>
       <div className="titulo">
@@ -7,8 +6,8 @@ const Home = ({active}) => {
         <h2 className="div-derecho">Front-End Developer</h2>
       </div>
       <p style={{ display: `${!active ? '' : 'none'}` }}>Hola! Mi nombre es Brian Cabrera,
-        soy desarrollador Front-End y futuro Full-Stack.
-        Estoy en continuo aprendizaje. Las tecnologias que utilizo
+        soy desarrollador Front-End.
+        Estoy en continuo aprendizaje. Las tecnologías que utilizo 🢛
       </p>
       <div id="div-iconos" className="cursor" style={{ display: `${!active ? '' : 'none'}` }}>
         <i title="HTML5" className="fab fa-html5"></i>
@@ -21,5 +20,3 @@ const Home = ({active}) => {
     </div>
   )
 }
-
-export default Home;

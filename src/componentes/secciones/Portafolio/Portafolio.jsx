@@ -1,15 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
 import { EffectCoverflow, Pagination } from "swiper";
 
-
-const Portafolio = ({ active }) => {
+export const Portafolio = ({ active }) => {
   const enlaces = [
+    {
+      "proyecto": "https://brian432.github.io/goscrum/",
+      "codigo": "https://github.com/brian432/goscrum"
+    },
     {
       "proyecto": "https://brian432.github.io/Nasa-App/",
       "codigo": "https://github.com/brian432/Nasa-App"
@@ -62,11 +62,8 @@ const Portafolio = ({ active }) => {
             </SwiperSlide>
           )
         }
-
       </Swiper>
     </div>
   )
 }
-
-export default Portafolio;
 

@@ -450,6 +450,16 @@ nav #hamburguesa .linea3 {
   width: 100%;
 }
 
+#portafolio .btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #dfdfdf;
+  background: #202025;
+  -webkit-box-shadow: 5px 5px 10px #1d1d22, -5px -5px 10px #232328;
+          box-shadow: 5px 5px 10px #1d1d22, -5px -5px 10px #232328;
+}
+
 #portafolio .cuadros {
   padding: 2px;
   display: -webkit-box;
@@ -481,10 +491,14 @@ nav #hamburguesa .linea3 {
 }
 
 #portafolio .cuadro0 {
-  background-image: url("/public/imagenes/nasa-app.jpg");
+  background-image: url("/public/imagenes/go-scrum.jpg");
 }
 
 #portafolio .cuadro1 {
+  background-image: url("/public/imagenes/nasa-app.jpg");
+}
+
+#portafolio .cuadro2 {
   background-image: url("/public/imagenes/Movies-App.jpg");
 }
 
@@ -493,19 +507,19 @@ nav #hamburguesa .linea3 {
           filter: grayscale(0%) !important;
 }
 
-#portafolio .cuadro2 {
+#portafolio .cuadro3 {
   background-image: url("/public/imagenes/api-countries.jpg");
 }
 
-#portafolio .cuadro3 {
+#portafolio .cuadro4 {
   background-image: url("/public/imagenes/job-listings.jpg");
 }
 
-#portafolio .cuadro4 {
+#portafolio .cuadro5 {
   background-image: url("/public/imagenes/ip-address-tracker.jpg");
 }
 
-#portafolio .cuadro5 {
+#portafolio .cuadro6 {
   background-image: url("/public/imagenes/rock-paper-scissors.jpg");
 }
 
@@ -559,6 +573,7 @@ nav #hamburguesa .linea3 {
   border-bottom: 1px solid rgba(175, 175, 175, 0.274);
   background: none;
   outline: none;
+  color: #afafaf;
 }
 
 #Contacto .div-derecho form textarea {
@@ -567,6 +582,7 @@ nav #hamburguesa .linea3 {
   border: none;
   padding-top: 10px;
   outline: none;
+  color: #afafaf;
 }
 
 #Contacto .div-derecho form .btn-form {

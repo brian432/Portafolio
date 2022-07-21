@@ -22,6 +22,14 @@
         display: block;
         width: 100%;
     }
+    .btn {
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: rgb(223, 223, 223);
+        background: #202025;
+        box-shadow: 5px 5px 10px #1d1d22, -5px -5px 10px #232328;
+    }
 
     .cuadros {
         padding: 2px;
@@ -43,26 +51,27 @@
         }
     }
     .cuadro0 {
-        background-image: url("/public/imagenes/nasa-app.jpg");
+        background-image: url("/public/imagenes/go-scrum.jpg");
     }
     .cuadro1 {
+        background-image: url("/public/imagenes/nasa-app.jpg");
+    }
+    .cuadro2 {
         background-image: url("/public/imagenes/Movies-App.jpg");
     }
     .div-filter:hover {
         filter: grayscale(0%) !important;
     }
-    .cuadro2 {
+    .cuadro3 {
         background-image: url("/public/imagenes/api-countries.jpg");
     }
-    .cuadro3 {
+    .cuadro4 {
         background-image: url("/public/imagenes/job-listings.jpg");
     }
-    .cuadro4 {
+    .cuadro5 {
         background-image: url("/public/imagenes/ip-address-tracker.jpg");
     }
-    .cuadro5 {
+    .cuadro6 {
         background-image: url("/public/imagenes/rock-paper-scissors.jpg");
     }
 }
-
-
