@@ -15,8 +15,8 @@ export const Portafolio = ({ active }) => {
       "codigo": "https://github.com/brian432/Nasa-App"
     },
     {
-      "proyecto": "https://brian432.github.io/Movies-App/",
-      "codigo": "https://github.com/brian432/Movies-App"
+      "proyecto": "https://brian432.github.io/movies-and-series/",
+      "codigo": "https://github.com/brian432/movies-and-series"
     },
     {
       "proyecto": "https://brian432.github.io/api-countries/",
